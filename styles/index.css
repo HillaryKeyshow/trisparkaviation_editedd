@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.homepage{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.homepage-vid{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.white-overlay{
+  position: absolute;
+  bottom: 0; /* Start from the bottom */
+  left: 0;
+  width: 100%;
+  height: 100%; /* Full height of the parent */
+  background-color: white;
+  z-index: 0; /* Make sure it stays below the content */
+  opacity: 40%;
+}
+.hero-text{
+    font-size: 55px;
+    top: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+    position: absolute;
+    z-index: 150;
+    color: #8d6914;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.hero-text span{
+    background-color: white;
+    height: fit-content;
+    font-size: 50px;
+    padding: 5px;
+    color: #0d2c7a;
+    width: fit-content;
+    margin-left: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #8d6914;
+    font-size: 22px;
+}
+
+.service-div{
+    width: 100%;
+    margin-top: 20px;    
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-title{
+    background-color: #8d6914;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+}
+.service-photo{
+    height: 300px;
+    width: 600px;
+    background-color: #8d6914;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.jetsale-s{
+    background: url(../images/home-jetsale-s.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section2{
+    color: black;
+    margin-top: 47px;
+    width: 40%;
+}
+.section2 button{
+    padding: 7px;
+    margin-top: 10px;
+    background-color: #8d6914;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.featured-plane{
+    margin-top: 30px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to left, #030303 20%, #dbd8d5 80%);
+}
+
+.featured-plane-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.featured-title{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.featured-plane-content .plane-name{
+    font-size: 40px;
+    font-weight: bold;
+    color: #8d6914;
+}
+.featured-plane img{
+    transform: scaleX(-1);
+}
+.plane-specs{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: white;
+}
+.plane-specs span{
+    margin-top: 6px;
+}
+
+/* privatejet-service*/
+
+.privatejet-s{
+    background: url(../images/privatejet-board-s.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Heli charter */
+.helicopter-charter-s{
+    background: url(../images/home-heli-s.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+/*cargo services*/
+.cargo-s{
+    background: url(../images/home-cargo-s.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*safari-flight-services*/
+.safari-flight-s{
+    background: url(../images/home-safari-s.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.featured-safari{
+    margin-top: 30px;
+    height: 350px;
+    width: 100%;
+    background-color: #8d6914;
+    background: url(../images/home-safari-f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.featured-safari .section1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.featured-safari .section1 span:nth-child(2){
+    font-style: italic;
+    text-decoration: dashed;
+}
+.featured-safari .section2{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    color: white;
+}
+.featured-safari .section2 button{
+    background-color: white;
+    color: #030303;
+}
+
+
